@@ -167,12 +167,12 @@ main {
 }
 
 .player--winner {
-  background-color: rgb(43, 40, 40);
+  background-color: rgba(255, 232, 142, 0.848);
 }
 
 .player--winner .name {
   font-weight: 700;
-  color: white;
+  color: rgba(255, 255, 255, 0.88);
 }
 
 .hidden {
