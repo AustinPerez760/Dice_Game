@@ -15,7 +15,6 @@ const btnHold = document.querySelector('.btn--hold');
 // Starting conditions
 score0El.textContent = 0;
 score1El.textContent = 0;
-diceEl.classList.add('hidden');
 
 //function for switching player
 const switchPlayer = () => {
@@ -44,7 +43,7 @@ const newGame = () => {
   player0El.classList.remove('player--winner');
   player1El.classList.remove('player--winner');
   player0El.classList.add('player--active');
-  player1El.classList.add('player--active');
+  player1El.classList.remove('player--active');
 };
 newGame();
 
@@ -97,6 +96,4 @@ btnHold.addEventListener('click', function () {
   }
 });
 
-btnNew.addEventListener('click', function () {
-  newGame();
-});
+btnNew.addEventListener('click', newGame);
