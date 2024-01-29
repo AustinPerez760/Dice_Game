@@ -2,7 +2,7 @@
 
 ## Be the first of two players to roll a accumulative number over 21 uising a six sided die. However, be careful as rolling a 1 will skip your turn entireley and pass the roll to your opponent.
 
-## Player 1 will always start off the game and the indication of whos turn it is will be is reflective by the background color of the player cards. If the background hue is a lighter than the opponents than that player is up to roll!
+## Player 1 will always start off the game and the indication of whos turn it is will be reflective by the background color of the player cards. If the background hue is a lighter than the opponents than that player is up to roll!
 
 ## If a player presses the "Hold" button their score will be saved until next turn thus avoiding the chance of rolling a 1 within that turn.
 
